@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اکانت چنجر زیکس</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+            font-family: 'Vazirmatn', sans-serif;
+            direction: rtl;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .container {
+            text-align: center;
+            z-index: 2;
+            padding: 20px;
+            max-width: 90%;
+        }
+
+        h1 {
+            color: #0D47A1;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #1976D2;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #0D47A1;
+        }
+
+        .bubble {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            opacity: 0.7;
+            animation: float 10s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-30px); }
+            100% { transform: translateY(0); }
+        }
+
+        .bubble:nth-child(1) { width: 50px; height: 50px; top: 10%; left: 20%; animation-duration: 8s; }
+        .bubble:nth-child(2) { width: 80px; height: 80px; top: 40%; left: 70%; animation-duration: 12s; }
+        .bubble:nth-child(3) { width: 60px; height: 60px; top: 70%; left: 40%; animation-duration: 10s; }
+        .bubble:nth-child(4) { width: 100px; height: 100px; top: 20%; left: 50%; animation-duration: 14s; }
+        .bubble:nth-child(5) { width: 40px; height: 40px; top: 80%; left: 10%; animation-duration: 9s; }
+    </style>
+</head>
+<body>
+
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+
+    <div class="container">
+        <h1>تاحالا شده کلی اکانت کرکی خفن ببینی و نتونی ازشون استفاده کنی چون هی پلیر روش لاگین میکنه!؟</h1>
+        <p>اینجا قراره بهت کمک کنم</p>
+        <a href="page2.html" class="button">چنج اکانت کرکی</a>
+    </div>
+
+</body>
+</html>
